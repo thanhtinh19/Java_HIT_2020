@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package bai_1;
+package Bai_1;
 
 /**
  *
  * @author NGO THI THANH TINH
  */
-public class Bai_1 {
+public class RunMain {
 
     /**
      * @param args the command line arguments
@@ -28,5 +28,6 @@ public class Bai_1 {
         }
             System.out.println();
     }
-   }
+    }
+    
 }

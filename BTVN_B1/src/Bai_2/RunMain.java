@@ -3,19 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package bai_2;
+package Bai_2;
 
 /**
  *
  * @author NGO THI THANH TINH
  */
-public class Bai_2 {
-
-    /**
-     * @param args the command line arguments
-     */
+public class RunMain {
     public static void main(String[] args) {
-        // TODO code application logic here
          System.out.println("*       *     *     * * * *   * * * *   *     *");
         System.out.println("|       |    / \\    |      *  |      *   \\   /");
         System.out.println("* ----- *   *---*   * * * *   * * * *      *");
@@ -36,5 +31,4 @@ public class Bai_2 {
         System.out.println("  |    |        /     \\   |    \\");
         System.out.println("  *    ******  *       *  *     *");
     }
-    
 }
