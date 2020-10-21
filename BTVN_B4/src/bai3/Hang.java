@@ -6,16 +6,16 @@ import java.util.Scanner;
 public class Hang {
     private int maHang;
     private String tenHang;
-    private int donGia;
+    protected int donGia;
     
     public void Nhap(){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhap ma hang: ");
+        System.out.print("Nhap ma hang: ");
         maHang = sc.nextInt();
         sc.nextLine();
-        System.out.println("Nhap ten hang: ");
+        System.out.print("Nhap ten hang: ");
         tenHang = sc.nextLine();
-        System.out.println("Nhap don gia: ");
+        System.out.print("Nhap don gia: ");
         donGia = sc.nextInt();
     }
     

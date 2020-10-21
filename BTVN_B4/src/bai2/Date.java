@@ -54,6 +54,4 @@ public class Date {
     public void setY(int Y) {
         this.Y = Y;
     }
-    
-    
 }

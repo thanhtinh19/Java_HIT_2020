@@ -10,9 +10,9 @@ public class Phieu {
     
     public void Input(){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhap ma phieu: ");
+        System.out.print("Nhap ma phieu: ");
         maPhieu = sc.nextInt();
-        System.out.println("Nhap n: ");
+        System.out.print("Nhap n: ");
         n = sc.nextInt();
         x = new Hang[n];
         for(int i = 0 ; i < n ; i++){
@@ -29,6 +29,13 @@ public class Phieu {
         
     }
 
+    public void TinhTien(){
+        int s = 0;
+        for(int i = 0; i < n; i++)
+            s += x[i].donGia;
+        System.out.println("tong tien cua phieu la :" + s);
+    }
+    
     public Phieu() {
     }
 

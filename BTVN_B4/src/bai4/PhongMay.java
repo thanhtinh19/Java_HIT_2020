@@ -4,9 +4,9 @@ package bai4;
 import java.util.Scanner;
 
 public class PhongMay {
-    private int MaPhong;
-    private String TenPhong;
-    private int DienTich;
+    private int maPhong;
+    private String tenPhong;
+    private int dienTich;
     private QuanLy x;
     private May[] y;
     private int n;
@@ -14,12 +14,12 @@ public class PhongMay {
     public void Nhap(){
         Scanner sc = new Scanner(System.in);
         System.out.print("Ma phong: ");
-        MaPhong = sc.nextInt();
+        maPhong = sc.nextInt();
         sc.nextLine();
         System.out.print("Ten phong: ");
-        TenPhong = sc.nextLine();
+        tenPhong = sc.nextLine();
         System.out.print("Dien tich: ");
-        DienTich = sc.nextInt();
+        dienTich = sc.nextInt();
         sc.nextLine();
         x = new QuanLy();
         x.NhapQLy();
@@ -34,8 +34,8 @@ public class PhongMay {
     
     public void Xuat(){
         System.out.println("");
-        System.out.println("Ma phong: " + MaPhong + "\n" + "Ten phong: " + TenPhong
-                + "\n" + "Dien tich: " + DienTich);
+        System.out.println("Ma phong: " + maPhong + "\n" + "Ten phong: " + tenPhong
+                + "\n" + "Dien tich: " + dienTich);
         x.XuatQLy();
         for(int i = 0; i < n; i++){
             System.out.println("May thu " + (i+1));
@@ -46,37 +46,37 @@ public class PhongMay {
     public PhongMay() {
     }
 
-    public PhongMay(int MaPhong, String TenPhong, int DienTich, QuanLy x, May[] y, int n) {
-        this.MaPhong = MaPhong;
-        this.TenPhong = TenPhong;
-        this.DienTich = DienTich;
+    public PhongMay(int maPhong, String tenPhong, int dienTich, QuanLy x, May[] y, int n) {
+        this.maPhong = maPhong;
+        this.tenPhong = tenPhong;
+        this.dienTich = dienTich;
         this.x = x;
         this.y = y;
         this.n = n;
     }
 
-    public int getMaPhong() {
-        return MaPhong;
+    public int getmaPhong() {
+        return maPhong;
     }
 
-    public void setMaPhong(int MaPhong) {
-        this.MaPhong = MaPhong;
+    public void setmaPhong(int maPhong) {
+        this.maPhong = maPhong;
     }
 
-    public String getTenPhong() {
-        return TenPhong;
+    public String gettenPhong() {
+        return tenPhong;
     }
 
-    public void setTenPhong(String TenPhong) {
-        this.TenPhong = TenPhong;
+    public void settenPhong(String tenPhong) {
+        this.tenPhong = tenPhong;
     }
 
-    public int getDienTich() {
-        return DienTich;
+    public int getdienTich() {
+        return dienTich;
     }
 
-    public void setDienTich(int DienTich) {
-        this.DienTich = DienTich;
+    public void setdienTich(int dienTich) {
+        this.dienTich = dienTich;
     }
 
     public QuanLy getX() {

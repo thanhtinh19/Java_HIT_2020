@@ -6,5 +6,6 @@ public class RunMain {
         Phieu p = new Phieu();
         p.Input();
         p.HienThi();
+        p.TinhTien();
     }
 }

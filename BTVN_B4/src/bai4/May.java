@@ -5,57 +5,57 @@ import java.util.Scanner;
 
 
 public class May {
-    private int MaMay;
-    private String KieuMay;
-    private String TinhTrang;
+    private int maMay;
+    private String kieuMay;
+    private String tinhTrang;
     
     public void NhapMay(){
         Scanner sc = new Scanner(System.in);
         System.out.print("Ma may: ");
-        MaMay = sc.nextInt();
+        maMay = sc.nextInt();
         sc.nextLine();
         System.out.print("Kieu may: ");
-        KieuMay = sc.nextLine();
+        kieuMay = sc.nextLine();
         System.out.print("Tinh trang: ");
-        TinhTrang = sc.nextLine();
+        tinhTrang = sc.nextLine();
     }
     
     public void XuatMay(){
-        System.out.println("Ma may: " +MaMay + "\n"+ "Kieu may: " + KieuMay +
-                "\n" + "Tinh trang may: " + TinhTrang );
+        System.out.println("Ma may: " +maMay + "\n"+ "Kieu may: " + kieuMay +
+                "\n" + "Tinh trang may: " + tinhTrang );
     }
 
     public May() {
     }
 
-    public May(int MaMay, String KieuMay, String TinhTrang) {
-        this.MaMay = MaMay;
-        this.KieuMay = KieuMay;
-        this.TinhTrang = TinhTrang;
+    public May(int maMay, String kieuMay, String tinhTrang) {
+        this.maMay = maMay;
+        this.kieuMay = kieuMay;
+        this.tinhTrang = tinhTrang;
     }
 
-    public int getMaMay() {
-        return MaMay;
+    public int getmaMay() {
+        return maMay;
     }
 
-    public void setMaMay(int MaMay) {
-        this.MaMay = MaMay;
+    public void setmaMay(int maMay) {
+        this.maMay = maMay;
     }
 
-    public String getKieuMay() {
-        return KieuMay;
+    public String getkieuMay() {
+        return kieuMay;
     }
 
-    public void setKieuMay(String KieuMay) {
-        this.KieuMay = KieuMay;
+    public void setkieuMay(String kieuMay) {
+        this.kieuMay = kieuMay;
     }
 
-    public String getTinhTrang() {
-        return TinhTrang;
+    public String gettinhTrang() {
+        return tinhTrang;
     }
 
-    public void setTinhTrang(String TinhTrang) {
-        this.TinhTrang = TinhTrang;
+    public void settinhTrang(String tinhTrang) {
+        this.tinhTrang = tinhTrang;
     }
     
 }
