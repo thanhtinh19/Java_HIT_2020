@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Hang {
     private int maHang;
     private String tenHang;
-    protected int donGia;
+    protected long donGia;
     
     public void Nhap(){
         Scanner sc = new Scanner(System.in);
@@ -16,7 +16,7 @@ public class Hang {
         System.out.print("Nhap ten hang: ");
         tenHang = sc.nextLine();
         System.out.print("Nhap don gia: ");
-        donGia = sc.nextInt();
+        donGia = sc.nextLong();
     }
     
     public void Xuat(){
@@ -48,7 +48,7 @@ public class Hang {
         this.tenHang = tenHang;
     }
 
-    public int getDonGia() {
+    public long getDonGia() {
         return donGia;
     }
 

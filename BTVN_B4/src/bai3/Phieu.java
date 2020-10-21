@@ -29,11 +29,11 @@ public class Phieu {
         
     }
 
-    public void TinhTien(){
-        int s = 0;
+    public long TinhTien(){
+        long s = 0;
         for(int i = 0; i < n; i++)
             s += x[i].donGia;
-        System.out.println("tong tien cua phieu la :" + s);
+        return s;
     }
     
     public Phieu() {

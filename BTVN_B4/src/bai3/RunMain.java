@@ -6,6 +6,6 @@ public class RunMain {
         Phieu p = new Phieu();
         p.Input();
         p.HienThi();
-        p.TinhTien();
+        System.out.println("Tong tien cua phieu la: " + p.TinhTien());
     }
 }
