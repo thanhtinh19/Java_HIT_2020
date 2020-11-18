@@ -86,6 +86,6 @@ public class New implements INews {
         }
     }
     public void calculate(){
-        averageRate = (float) ((rateList[0] + rateList[1] + rateList[2]) * 1.0 / 3);
+        averageRate = (float) ((rateList[0] + rateList[1] + rateList[2])  / 3);
     }
 }
